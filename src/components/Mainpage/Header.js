@@ -30,7 +30,7 @@ const Header = (props) => {
                 </Link>
                 <hr className="sideNav" />
                 <Link to="/signin">
-                  {" "}
+                 
                   <li>Sign In</li>
                 </Link>
                 <Link to="/signup">
@@ -41,13 +41,13 @@ const Header = (props) => {
                   <li>Movies</li>
                 </Link>
                 <Link to="prem">
-                  <li>Sky Store Premiere</li>
+                  <li> Premiere</li>
                 </Link>
                 <Link to="picks">
                   <li>Spring Sale</li>
                 </Link>
                 <Link to="gift">
-                  <li>Sky VIP</li>
+                  <li>Sky Store VIP</li>
                 </Link>
                 <Link to="popular">
                   <li>TV</li>
@@ -68,7 +68,7 @@ const Header = (props) => {
                   />
                 </picture>
               </a>
-              <div className="header-right search">
+              {/* <div className="header-right search">
                 <nav className="user-menu">
                   <ul className="loginmenu">
                     <li className="menu-item firstitem">
@@ -106,7 +106,7 @@ const Header = (props) => {
                     </span>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="searchMobile">
               <button className="searchToggle" onClick={handleOnClick}>
@@ -242,13 +242,13 @@ const Header = (props) => {
                       Store Picks
                     </Link>
                     <Link className="anchor" to="under3">
-                      Under £3
+                      Under 3$
                     </Link>
                     <Link className="anchor" to="under4">
-                      Under £4
+                      Under 4$
                     </Link>
                     <Link className="anchor" to="under5">
-                      Under £5
+                      Under 5$
                     </Link>
                     <Link className="anchor" to="set">
                       Movie Box Sets
@@ -265,7 +265,7 @@ const Header = (props) => {
                 </li>
                 <li className="dropdown-item dropdown vip">
                   <button className="dropbtn vipbtn">
-                    Sky VIP
+                    Sky Store VIP
                     <span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -284,7 +284,7 @@ const Header = (props) => {
                   </button>
                   <div className="dropdown-content">
                     <Link className="anchor" to="gift">
-                      Sky VIP Gift
+                      FlixVerse VIP Gift
                     </Link>
                   </div>
                 </li>

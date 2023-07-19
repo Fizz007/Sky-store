@@ -33,16 +33,7 @@ function Footer() {
                     </ul>
                 </nav>
 
-                <nav className="toplink region">
-                    <ul className="footernav regionnav">
-                        <li className="footerlink regionlink">
-                            <span>United Kingdom and Republic of Ireland</span>
-                        </li>
-                        <li className="footerlink regionlink">
-                            <a href=''>Deutschland und Österreich</a>
-                        </li>
-                    </ul>
-                </nav>
+               
                 <nav className="toplink copyright">
                     <ul className="footernav copyrightnav">
                         <li className="footerlink copyrightlink">
